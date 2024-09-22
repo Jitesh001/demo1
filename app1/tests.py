@@ -8,7 +8,7 @@ class ModelTesting(TestCase):
     def test_post_creation(self):
         post = Post.objects.get(title='Test Post')
         self.assertEqual(post.title, 'Test Post')
-        self.assertEqual(post.author, 'John Doe')
+        self.assertEqual(post.author, 'John Duck')
     
     def test_post_created(self):
         post = Post.objects.get(title='Test Post')
