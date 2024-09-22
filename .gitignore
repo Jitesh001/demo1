@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+.env/
+
+# Django stuff:
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+.coverage.*
+nosetests.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Ignore environment variables
+.env
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
