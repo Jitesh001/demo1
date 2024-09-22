@@ -9,7 +9,6 @@ env/
 venv/
 .venv/
 ENV/
-.env/
 
 # Django stuff:
 *.log
@@ -31,6 +30,7 @@ nosetests.xml
 # Docker
 Dockerfile
 docker-compose.yml
+.dockerignore
 
 # VS Code
 .vscode/
