@@ -13,3 +13,4 @@ class ModelTesting(TestCase):
     def test_post_created(self):
         post = Post.objects.get(title='Test Post')
         self.assertIsNotNone(post.title)
+
