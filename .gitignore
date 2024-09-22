@@ -46,6 +46,3 @@ docker-compose.yml
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
-# Ignore the .github directory if not needed
-.github/
