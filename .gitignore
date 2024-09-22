@@ -9,6 +9,7 @@ env/
 venv/
 .venv/
 ENV/
+.env/
 
 # Django stuff:
 *.log
@@ -43,3 +44,6 @@ docker-compose.yml
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+#env
+.env
