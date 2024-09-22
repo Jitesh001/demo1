@@ -32,9 +32,6 @@ nosetests.xml
 Dockerfile
 docker-compose.yml
 
-# Ignore environment variables
-.env
-
 # VS Code
 .vscode/
 
